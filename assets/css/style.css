@@ -7,6 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap (https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap)'
 );
 
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+
 html,
 body {
     width: 100vw;
@@ -17,7 +24,7 @@ body {
 
 header {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     background-color: green;
 }
 
@@ -27,7 +34,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 1rem;
 
 }
 
