@@ -53,3 +53,37 @@ nav ul li a {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
+article {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+table td {
+    width: 20em;
+    border: 1px solid black;
+
+
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+video {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
