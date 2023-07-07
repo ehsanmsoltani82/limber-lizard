@@ -12,19 +12,27 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 1rem;
+    text-align: right;
+}
 
 
-html,
+
+
+
 body {
-    width: 100vw;
-    height: 100vh;
+
     font-family: 'Nunito Sans', sans-serif;
     color: #333;
+    font-weight: 500;
 }
 
 header {
+
     text-align: center;
     font-size: 3rem;
+
     background-color: green;
 }
 
@@ -55,7 +63,7 @@ nav ul:first-child {
 }
 
 nav ul li a {
-    font-size: 2rem;
+    font-size: 1rem;
     color: aliceblue;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -73,7 +81,7 @@ article {
 
 
 table td {
-    width: 20em;
+    width: 30em;
     border: 1px solid black;
 
 
@@ -87,10 +95,48 @@ th {
     text-align: center;
 }
 
+
+
 video {
     margin-left: 25%;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: cadetblue;
+
+}
+
+footer ul {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0 2rem;
+
+}
+
+footer ul li a {
+    font-size: 1rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+footer ul:first-child {
+    float: left;
 }
