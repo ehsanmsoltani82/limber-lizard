@@ -32,8 +32,7 @@ header {
 
     text-align: center;
     font-size: 3rem;
-
-    background-color: green;
+    background-color: cadetblue;
 }
 
 nav {
@@ -145,4 +144,23 @@ footer ul li a {
 
 footer ul:first-child {
     float: left;
+}
+
+#about {
+    width: 100%;
+    max-width: 960px;
+    margin: 40px 20px;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+#about-left {
+    float: right;
+    font-size: large;
+    width: 100%;
+    max-width: 960px;
+    margin: 40px 20px;
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-left: 25%;
 }
