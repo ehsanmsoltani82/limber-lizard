@@ -95,7 +95,13 @@ th {
     text-align: center;
 }
 
-
+#lizard-b {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 video {
     margin-left: 25%;
